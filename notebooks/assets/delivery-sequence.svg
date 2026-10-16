@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#334155"/></marker>
+    <style>
+      text { font-family: "Malgun Gothic", "Apple SD Gothic Neo", sans-serif; fill: #172033; }
+      .title { font-size: 25px; font-weight: 700; }
+      .actor { fill: #e8f0fe; stroke: #4169a1; stroke-width: 2; rx: 10; }
+      .label { font-size: 16px; font-weight: 700; text-anchor: middle; }
+      .life { stroke: #94a3b8; stroke-width: 2; stroke-dasharray: 7 6; }
+      .msg { stroke: #334155; stroke-width: 2; marker-end: url(#arrow); }
+      .return { stroke: #64748b; stroke-width: 2; stroke-dasharray: 6 4; marker-end: url(#arrow); }
+      .msgtext { font-size: 14px; text-anchor: middle; }
+      .section { fill: #f8fafc; stroke: #cbd5e1; stroke-width: 2; rx: 10; }
+      .sectionTitle { font-size: 17px; font-weight: 700; fill: #315b94; }
+      .condition { fill: #fff8df; stroke: #d8a72d; stroke-width: 1.5; rx: 6; }
+    </style>
+  </defs>
+  <rect width="1200" height="800" fill="#ffffff"/>
+  <text x="600" y="38" class="title" text-anchor="middle">택배 도착 안내 에이전트 시퀀스</text>
+
+  <g>
+    <rect x="35" y="65" width="150" height="52" class="actor"/><text x="110" y="97" class="label">실행자</text>
+    <rect x="270" y="65" width="170" height="52" class="actor"/><text x="355" y="97" class="label">안내 프로그램</text>
+    <rect x="520" y="65" width="150" height="52" class="actor"/><text x="595" y="97" class="label">작성자 LLM</text>
+    <rect x="770" y="65" width="150" height="52" class="actor"/><text x="845" y="97" class="label">규칙 검사기</text>
+    <rect x="1010" y="65" width="150" height="52" class="actor"/><text x="1085" y="97" class="label">수정자 LLM</text>
+    <line x1="110" y1="117" x2="110" y2="765" class="life"/><line x1="355" y1="117" x2="355" y2="765" class="life"/>
+    <line x1="595" y1="117" x2="595" y2="765" class="life"/><line x1="845" y1="117" x2="845" y2="765" class="life"/><line x1="1085" y1="117" x2="1085" y2="765" class="life"/>
+  </g>
+
+  <rect x="20" y="140" width="1160" height="205" class="section"/><text x="38" y="168" class="sectionTitle">단일 에이전트</text>
+  <line x1="110" y1="195" x2="355" y2="195" class="msg"/><text x="232" y="187" class="msgtext">run_single_delivery()</text>
+  <line x1="355" y1="240" x2="595" y2="240" class="msg"/><text x="475" y="232" class="msgtext">DELIVERY_PROMPT(order)</text>
+  <line x1="595" y1="285" x2="355" y2="285" class="return"/><text x="475" y="277" class="msgtext">안내문 + 토큰</text>
+  <line x1="355" y1="325" x2="110" y2="325" class="return"/><text x="232" y="317" class="msgtext">글 + 토큰 + 시간</text>
+
+  <rect x="20" y="370" width="1160" height="395" class="section"/><text x="38" y="398" class="sectionTitle">협업 에이전트</text>
+  <line x1="110" y1="425" x2="355" y2="425" class="msg"/><text x="232" y="417" class="msgtext">run_delivery_team()</text>
+  <line x1="355" y1="470" x2="595" y2="470" class="msg"/><text x="475" y="462" class="msgtext">DELIVERY_PROMPT(order)</text>
+  <line x1="595" y1="510" x2="355" y2="510" class="return"/><text x="475" y="502" class="msgtext">초안 + 토큰</text>
+  <line x1="355" y1="550" x2="845" y2="550" class="msg"/><text x="600" y="542" class="msgtext">check_delivery(초안)</text>
+  <line x1="845" y1="590" x2="355" y2="590" class="return"/><text x="600" y="582" class="msgtext">위반 목록</text>
+  <rect x="330" y="607" width="780" height="105" class="condition"/><text x="345" y="630" font-size="14" font-weight="700">위반이 있을 때만</text>
+  <line x1="355" y1="653" x2="1085" y2="653" class="msg"/><text x="720" y="645" class="msgtext">원래 지시 + 초안 + 위반 목록</text>
+  <line x1="1085" y1="687" x2="355" y2="687" class="return"/><text x="720" y="679" class="msgtext">수정본 + 토큰 → 재검사</text>
+  <line x1="355" y1="742" x2="110" y2="742" class="return"/><text x="232" y="734" class="msgtext">최종 글 + 위반 + 누적 토큰 + 시간</text>
+</svg>

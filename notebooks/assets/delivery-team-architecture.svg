@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1300" height="560" viewBox="0 0 1300 560">
+  <defs>
+    <marker id="a" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#334155"/></marker>
+    <style>text{font-family:"Malgun Gothic","Apple SD Gothic Neo",sans-serif;fill:#172033}.title{font-size:26px;font-weight:700}.box{stroke-width:2;rx:13}.t{font-size:16px;font-weight:700;text-anchor:middle}.s{font-size:13px;text-anchor:middle;fill:#475569}.line{stroke:#334155;stroke-width:2.5;fill:none;marker-end:url(#a)}.yn{font-size:13px;font-weight:700;fill:#315b94}</style>
+  </defs>
+  <rect width="1300" height="560" fill="#fff"/><text x="650" y="42" class="title" text-anchor="middle">협업 택배 도착 안내 에이전트 구성도</text>
+  <rect x="25" y="130" width="150" height="90" class="box" fill="#e8f0fe" stroke="#4169a1"/><text x="100" y="165" class="t">order 객체</text><text x="100" y="191" class="s">주문 파라미터</text>
+  <rect x="210" y="130" width="180" height="90" class="box" fill="#edf8ef" stroke="#4e8b57"/><text x="300" y="165" class="t">DELIVERY_PROMPT</text><text x="300" y="191" class="s">주문 정보 + D1~D8</text>
+  <rect x="425" y="130" width="165" height="90" class="box" fill="#f3ecff" stroke="#7757a8"/><text x="507" y="165" class="t">작성자 LLM</text><text x="507" y="191" class="s">초안 작성</text>
+  <rect x="625" y="130" width="165" height="90" class="box" fill="#fce9e9" stroke="#b95959"/><text x="707" y="165" class="t">규칙 검사기</text><text x="707" y="191" class="s">초안 D1~D8 검사</text>
+  <polygon points="875,120 955,175 875,230 795,175" fill="#fff4dd" stroke="#c58a24" stroke-width="2"/><text x="875" y="170" class="t">위반</text><text x="875" y="193" class="s">있음?</text>
+  <rect x="1015" y="130" width="170" height="90" class="box" fill="#e9f7fb" stroke="#3e8aa0"/><text x="1100" y="165" class="t">최종 결과</text><text x="1100" y="190" class="s">글 · 위반 · 토큰 · 시간</text>
+  <line x1="175" y1="175" x2="210" y2="175" class="line"/><line x1="390" y1="175" x2="425" y2="175" class="line"/><line x1="590" y1="175" x2="625" y2="175" class="line"/><line x1="790" y1="175" x2="795" y2="175" class="line"/>
+  <path d="M955 175 L1015 175" class="line"/><text x="978" y="160" class="yn">아니오</text>
+  <rect x="790" y="320" width="170" height="90" class="box" fill="#f3ecff" stroke="#7757a8"/><text x="875" y="355" class="t">수정자 LLM</text><text x="875" y="381" class="s">위반 부분 1회 수정</text>
+  <rect x="570" y="320" width="170" height="90" class="box" fill="#fce9e9" stroke="#b95959"/><text x="655" y="355" class="t">규칙 재검사</text><text x="655" y="381" class="s">수정본 D1~D8 검사</text>
+  <path d="M875 230 L875 320" class="line"/><text x="890" y="278" class="yn">예</text><line x1="790" y1="365" x2="740" y2="365" class="line"/>
+  <path d="M655 320 L655 270 L1100 270 L1100 220" class="line"/>
+  <rect x="300" y="465" width="700" height="66" rx="12" fill="#f8fafc" stroke="#cbd5e1"/><text x="650" y="493" class="t">특징</text><text x="650" y="517" class="s">코드 검사기가 품질을 판정하고 위반이 있을 때만 수정자를 호출해 역할을 분리한다.</text>
+</svg>
