@@ -1,0 +1,323 @@
+{"ts": "2026-10-29 12:46:10", "level": "WARNING", "event": "init_db_failed", "error": "connection to server at \"localhost\" (::1), port 5433 failed: timeout expired\nconnection to server at \"localhost\" (127.0.0.1), port 5433 failed: timeout expired\n"}
+{"ts": "2026-10-29 12:46:14", "level": "INFO", "event": "request", "method": "GET", "path": "/health", "status": 200, "duration_ms": 4016.4}
+{"ts": "2026-10-29 12:46:18", "level": "WARNING", "event": "history_save_failed", "error": "connection to server at \"localhost\" (::1), port 5433 failed: timeout expired\nconnection to server at \"localhost\" (127.0.0.1), port 5433 failed: timeout expired\n"}
+{"ts": "2026-10-29 12:46:23", "level": "ERROR", "event": "request", "method": "GET", "path": "/health", "status": 503, "duration_ms": 4023.8, "message": "server error"}
+{"ts": "2026-10-29 12:46:27", "level": "WARNING", "event": "history_save_failed", "error": "connection to server at \"localhost\" (::1), port 5433 failed: timeout expired\nconnection to server at \"localhost\" (127.0.0.1), port 5433 failed: timeout expired\n"}
+{"ts": "2026-10-29 12:46:27", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 3.0}
+{"ts": "2026-10-29 12:46:31", "level": "WARNING", "event": "history_save_failed", "error": "connection to server at \"localhost\" (::1), port 5433 failed: timeout expired\nconnection to server at \"localhost\" (127.0.0.1), port 5433 failed: timeout expired\n"}
+{"ts": "2026-10-29 12:46:31", "level": "INFO", "event": "request", "method": "GET", "path": "/health", "status": 200, "duration_ms": 1.1}
+{"ts": "2026-10-29 12:46:31", "level": "WARNING", "event": "history_save_failed", "error": "DB 장애 (실습용)"}
+{"ts": "2026-10-29 12:46:31", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 2.2}
+{"ts": "2026-10-29 12:46:31", "level": "WARNING", "event": "history_save_failed", "error": "DB 장애 (실습용)"}
+{"ts": "2026-10-29 14:04:14", "level": "INFO", "event": "request", "method": "GET", "path": "/health", "status": 200, "duration_ms": 22.5}
+{"ts": "2026-10-29 14:04:14", "level": "ERROR", "event": "request", "method": "GET", "path": "/health", "status": 503, "duration_ms": 12.9, "message": "server error"}
+{"ts": "2026-10-29 14:04:14", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.8}
+{"ts": "2026-10-29 14:04:14", "level": "INFO", "event": "request", "method": "GET", "path": "/health", "status": 200, "duration_ms": 0.9}
+{"ts": "2026-10-29 14:04:14", "level": "WARNING", "event": "history_save_failed", "error": "DB 장애 (실습용)"}
+{"ts": "2026-10-29 14:04:14", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.9}
+{"ts": "2026-10-29 14:04:14", "level": "WARNING", "event": "history_save_failed", "error": "DB 장애 (실습용)"}
+{"ts": "2026-10-29 16:18:20", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 3.0}
+{"ts": "2026-10-29 16:18:20", "level": "INFO", "event": "request", "method": "GET", "path": "/health", "status": 200, "duration_ms": 13.4}
+{"ts": "2026-10-29 16:18:20", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.3}
+{"ts": "2026-10-29 16:18:20", "level": "ERROR", "event": "request", "method": "GET", "path": "/boom", "status": 500, "error": "의도된 장애입니다 (실습용)", "duration_ms": 1.0, "message": "unhandled exception"}
+{"ts": "2026-10-29 16:18:20", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.2}
+{"ts": "2026-10-29 16:18:20", "level": "WARNING", "event": "request", "method": "GET", "path": "/no-such-page", "status": 404, "duration_ms": 0.3, "message": "client error"}
+{"ts": "2026-10-29 16:18:20", "level": "WARNING", "event": "request", "method": "GET", "path": "/no-such-page", "status": 404, "duration_ms": 0.2, "message": "client error"}
+{"ts": "2026-10-29 16:18:23", "level": "INFO", "event": "llm_call", "model": "gpt-4o-mini", "input_tokens": 68, "output_tokens": 88, "duration_ms": 2793.0}
+{"ts": "2026-10-29 16:18:23", "level": "INFO", "event": "request", "method": "POST", "path": "/write", "status": 200, "duration_ms": 2831.3}
+{"ts": "2026-10-29 16:18:23", "level": "INFO", "event": "request", "method": "GET", "path": "/health", "status": 200, "duration_ms": 26.7}
+{"ts": "2026-10-29 16:18:24", "level": "INFO", "event": "llm_call", "model": "gpt-4o-mini", "input_tokens": 68, "output_tokens": 71, "duration_ms": 1729.0}
+{"ts": "2026-10-29 16:18:24", "level": "INFO", "event": "request", "method": "POST", "path": "/write", "status": 200, "duration_ms": 1758.3}
+{"ts": "2026-10-29 16:18:24", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.0}
+{"ts": "2026-10-29 16:18:25", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 0.9}
+{"ts": "2026-10-29 16:18:25", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.2}
+{"ts": "2026-10-29 16:18:25", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.2}
+{"ts": "2026-10-29 16:18:25", "level": "INFO", "event": "request", "method": "GET", "path": "/health", "status": 200, "duration_ms": 27.1}
+{"ts": "2026-10-29 16:18:25", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.2}
+{"ts": "2026-10-29 16:18:25", "level": "INFO", "event": "request", "method": "GET", "path": "/health", "status": 200, "duration_ms": 27.5}
+{"ts": "2026-10-29 16:18:25", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.1}
+{"ts": "2026-10-29 16:18:25", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.1}
+{"ts": "2026-10-29 16:18:25", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.1}
+{"ts": "2026-10-29 16:18:25", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.0}
+{"ts": "2026-10-29 16:18:25", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.0}
+{"ts": "2026-10-29 16:18:25", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.8}
+{"ts": "2026-10-29 16:18:25", "level": "ERROR", "event": "request", "method": "GET", "path": "/boom", "status": 500, "error": "의도된 장애입니다 (실습용)", "duration_ms": 0.8, "message": "unhandled exception"}
+{"ts": "2026-10-29 16:18:25", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.1}
+{"ts": "2026-10-29 16:18:25", "level": "INFO", "event": "request", "method": "GET", "path": "/health", "status": 200, "duration_ms": 27.9}
+{"ts": "2026-10-29 16:18:25", "level": "WARNING", "event": "request", "method": "POST", "path": "/check", "status": 422, "duration_ms": 1.0, "message": "client error"}
+{"ts": "2026-10-29 16:18:25", "level": "WARNING", "event": "request", "method": "POST", "path": "/check", "status": 422, "duration_ms": 0.7, "message": "client error"}
+{"ts": "2026-10-29 16:18:25", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.3}
+{"ts": "2026-10-29 16:18:25", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.0}
+{"ts": "2026-10-29 16:18:25", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.1}
+{"ts": "2026-10-29 16:18:25", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.1}
+{"ts": "2026-10-29 16:18:27", "level": "INFO", "event": "llm_call", "model": "gpt-4o-mini", "input_tokens": 68, "output_tokens": 104, "duration_ms": 2137.0}
+{"ts": "2026-10-29 16:18:27", "level": "INFO", "event": "request", "method": "POST", "path": "/write", "status": 200, "duration_ms": 2184.9}
+{"ts": "2026-10-29 16:18:27", "level": "WARNING", "event": "request", "method": "GET", "path": "/no-such-page", "status": 404, "duration_ms": 0.3, "message": "client error"}
+{"ts": "2026-10-29 16:18:27", "level": "INFO", "event": "request", "method": "GET", "path": "/health", "status": 200, "duration_ms": 21.7}
+{"ts": "2026-10-29 16:18:29", "level": "INFO", "event": "llm_call", "model": "gpt-4o-mini", "input_tokens": 68, "output_tokens": 99, "duration_ms": 1977.8}
+{"ts": "2026-10-29 16:18:29", "level": "INFO", "event": "request", "method": "POST", "path": "/write", "status": 200, "duration_ms": 1997.1}
+{"ts": "2026-10-29 16:18:29", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.0}
+{"ts": "2026-10-29 16:18:29", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.0}
+{"ts": "2026-10-29 16:18:30", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.2}
+{"ts": "2026-10-29 16:18:30", "level": "WARNING", "event": "request", "method": "POST", "path": "/check", "status": 422, "duration_ms": 0.6, "message": "client error"}
+{"ts": "2026-10-29 16:18:30", "level": "INFO", "event": "request", "method": "GET", "path": "/health", "status": 200, "duration_ms": 27.5}
+{"ts": "2026-10-29 16:18:30", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.1}
+{"ts": "2026-10-29 16:18:30", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.4}
+{"ts": "2026-10-29 16:18:30", "level": "WARNING", "event": "request", "method": "POST", "path": "/check", "status": 422, "duration_ms": 0.5, "message": "client error"}
+{"ts": "2026-10-29 16:18:30", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.2}
+{"ts": "2026-10-29 16:18:30", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.2}
+{"ts": "2026-10-29 16:18:30", "level": "WARNING", "event": "request", "method": "POST", "path": "/check", "status": 422, "duration_ms": 0.7, "message": "client error"}
+{"ts": "2026-10-29 16:18:30", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.1}
+{"ts": "2026-10-29 16:18:31", "level": "INFO", "event": "llm_call", "model": "gpt-4o-mini", "input_tokens": 68, "output_tokens": 90, "duration_ms": 1654.1}
+{"ts": "2026-10-29 16:18:31", "level": "INFO", "event": "request", "method": "POST", "path": "/write", "status": 200, "duration_ms": 1680.8}
+{"ts": "2026-10-29 16:18:32", "level": "ERROR", "event": "request", "method": "GET", "path": "/boom", "status": 500, "error": "의도된 장애입니다 (실습용)", "duration_ms": 0.7, "message": "unhandled exception"}
+{"ts": "2026-10-29 16:18:32", "level": "INFO", "event": "request", "method": "GET", "path": "/health", "status": 200, "duration_ms": 12.1}
+{"ts": "2026-10-29 16:18:32", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.2}
+{"ts": "2026-10-29 16:18:32", "level": "INFO", "event": "request", "method": "GET", "path": "/health", "status": 200, "duration_ms": 12.8}
+{"ts": "2026-10-29 16:18:32", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.0}
+{"ts": "2026-10-29 16:18:32", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.0}
+{"ts": "2026-10-29 16:18:32", "level": "INFO", "event": "request", "method": "GET", "path": "/health", "status": 200, "duration_ms": 13.0}
+{"ts": "2026-10-29 16:21:32", "level": "WARNING", "event": "request", "method": "POST", "path": "/check", "status": 422, "duration_ms": 1.5, "message": "client error"}
+{"ts": "2026-10-29 16:21:32", "level": "INFO", "event": "request", "method": "GET", "path": "/health", "status": 200, "duration_ms": 27.4}
+{"ts": "2026-10-29 16:21:32", "level": "INFO", "event": "request", "method": "GET", "path": "/health", "status": 200, "duration_ms": 26.5}
+{"ts": "2026-10-29 16:21:32", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.3}
+{"ts": "2026-10-29 16:21:32", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.5}
+{"ts": "2026-10-29 16:21:32", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.1}
+{"ts": "2026-10-29 16:21:32", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.0}
+{"ts": "2026-10-29 16:21:32", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.2}
+{"ts": "2026-10-29 16:21:35", "level": "INFO", "event": "llm_call", "model": "gpt-4o-mini", "input_tokens": 68, "output_tokens": 94, "duration_ms": 2616.9}
+{"ts": "2026-10-29 16:21:35", "level": "INFO", "event": "request", "method": "POST", "path": "/write", "status": 200, "duration_ms": 2647.8}
+{"ts": "2026-10-29 16:21:35", "level": "INFO", "event": "request", "method": "GET", "path": "/health", "status": 200, "duration_ms": 22.5}
+{"ts": "2026-10-29 16:21:35", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.0}
+{"ts": "2026-10-29 16:21:38", "level": "INFO", "event": "llm_call", "model": "gpt-4o-mini", "input_tokens": 68, "output_tokens": 97, "duration_ms": 2429.3}
+{"ts": "2026-10-29 16:21:38", "level": "INFO", "event": "request", "method": "POST", "path": "/write", "status": 200, "duration_ms": 2467.3}
+{"ts": "2026-10-29 16:21:38", "level": "WARNING", "event": "request", "method": "POST", "path": "/check", "status": 422, "duration_ms": 0.5, "message": "client error"}
+{"ts": "2026-10-29 16:21:38", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.7}
+{"ts": "2026-10-29 16:21:39", "level": "INFO", "event": "llm_call", "model": "gpt-4o-mini", "input_tokens": 68, "output_tokens": 92, "duration_ms": 1713.2}
+{"ts": "2026-10-29 16:21:39", "level": "INFO", "event": "request", "method": "POST", "path": "/write", "status": 200, "duration_ms": 1735.2}
+{"ts": "2026-10-29 16:21:40", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.0}
+{"ts": "2026-10-29 16:21:40", "level": "INFO", "event": "request", "method": "GET", "path": "/health", "status": 200, "duration_ms": 28.2}
+{"ts": "2026-10-29 16:21:40", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.0}
+{"ts": "2026-10-29 16:21:40", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.2}
+{"ts": "2026-10-29 16:21:40", "level": "WARNING", "event": "request", "method": "POST", "path": "/check", "status": 422, "duration_ms": 0.6, "message": "client error"}
+{"ts": "2026-10-29 16:21:40", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.2}
+{"ts": "2026-10-29 16:21:40", "level": "WARNING", "event": "request", "method": "POST", "path": "/check", "status": 422, "duration_ms": 1.3, "message": "client error"}
+{"ts": "2026-10-29 16:21:40", "level": "WARNING", "event": "request", "method": "GET", "path": "/no-such-page", "status": 404, "duration_ms": 0.2, "message": "client error"}
+{"ts": "2026-10-29 16:21:40", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 0.9}
+{"ts": "2026-10-29 16:21:40", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.0}
+{"ts": "2026-10-29 16:21:40", "level": "ERROR", "event": "request", "method": "GET", "path": "/boom", "status": 500, "error": "의도된 장애입니다 (실습용)", "duration_ms": 1.5, "message": "unhandled exception"}
+{"ts": "2026-10-29 16:21:40", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.0}
+{"ts": "2026-10-29 16:21:40", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.0}
+{"ts": "2026-10-29 16:21:40", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.2}
+{"ts": "2026-10-29 16:21:42", "level": "INFO", "event": "llm_call", "model": "gpt-4o-mini", "input_tokens": 68, "output_tokens": 103, "duration_ms": 1983.3}
+{"ts": "2026-10-29 16:21:42", "level": "INFO", "event": "request", "method": "POST", "path": "/write", "status": 200, "duration_ms": 2015.5}
+{"ts": "2026-10-29 16:21:42", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 0.9}
+{"ts": "2026-10-29 16:21:42", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.2}
+{"ts": "2026-10-29 16:21:42", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.1}
+{"ts": "2026-10-29 16:21:42", "level": "WARNING", "event": "request", "method": "GET", "path": "/no-such-page", "status": 404, "duration_ms": 0.2, "message": "client error"}
+{"ts": "2026-10-29 16:21:42", "level": "INFO", "event": "request", "method": "GET", "path": "/health", "status": 200, "duration_ms": 12.5}
+{"ts": "2026-10-29 16:21:42", "level": "WARNING", "event": "request", "method": "GET", "path": "/no-such-page", "status": 404, "duration_ms": 0.2, "message": "client error"}
+{"ts": "2026-10-29 16:21:42", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.0}
+{"ts": "2026-10-29 16:21:42", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.4}
+{"ts": "2026-10-29 16:21:42", "level": "ERROR", "event": "request", "method": "GET", "path": "/boom", "status": 500, "error": "의도된 장애입니다 (실습용)", "duration_ms": 0.7, "message": "unhandled exception"}
+{"ts": "2026-10-29 16:21:42", "level": "INFO", "event": "request", "method": "GET", "path": "/health", "status": 200, "duration_ms": 13.9}
+{"ts": "2026-10-29 16:21:42", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.5}
+{"ts": "2026-10-29 16:21:42", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 0.9}
+{"ts": "2026-10-29 16:21:42", "level": "WARNING", "event": "request", "method": "POST", "path": "/check", "status": 422, "duration_ms": 0.5, "message": "client error"}
+{"ts": "2026-10-29 16:21:42", "level": "INFO", "event": "request", "method": "GET", "path": "/health", "status": 200, "duration_ms": 13.3}
+{"ts": "2026-10-29 16:21:42", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.0}
+{"ts": "2026-10-29 16:21:42", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.1}
+{"ts": "2026-10-29 16:21:42", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.2}
+{"ts": "2026-10-29 16:21:42", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.0}
+{"ts": "2026-10-29 16:21:42", "level": "INFO", "event": "request", "method": "GET", "path": "/health", "status": 200, "duration_ms": 27.6}
+{"ts": "2026-10-29 16:21:42", "level": "INFO", "event": "request", "method": "GET", "path": "/health", "status": 200, "duration_ms": 13.0}
+{"ts": "2026-10-29 16:21:43", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 0.9}
+{"ts": "2026-10-29 16:21:43", "level": "ERROR", "event": "request", "method": "GET", "path": "/boom", "status": 500, "error": "의도된 장애입니다 (실습용)", "duration_ms": 0.8, "message": "unhandled exception"}
+{"ts": "2026-10-29 16:21:43", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.0}
+{"ts": "2026-10-29 16:21:43", "level": "INFO", "event": "request", "method": "GET", "path": "/health", "status": 200, "duration_ms": 13.0}
+{"ts": "2026-10-29 16:21:45", "level": "INFO", "event": "llm_call", "model": "gpt-4o-mini", "input_tokens": 68, "output_tokens": 115, "duration_ms": 2100.9}
+{"ts": "2026-10-29 16:21:45", "level": "INFO", "event": "request", "method": "POST", "path": "/write", "status": 200, "duration_ms": 2124.2}
+{"ts": "2026-10-29 16:21:45", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 2.4}
+{"ts": "2026-10-29 16:22:18", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 2.3}
+{"ts": "2026-10-29 16:22:20", "level": "INFO", "event": "llm_call", "model": "gpt-4o-mini", "input_tokens": 68, "output_tokens": 93, "duration_ms": 2231.9}
+{"ts": "2026-10-29 16:22:20", "level": "INFO", "event": "request", "method": "POST", "path": "/write", "status": 200, "duration_ms": 2254.2}
+{"ts": "2026-10-29 16:22:20", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.0}
+{"ts": "2026-10-29 16:22:20", "level": "INFO", "event": "request", "method": "GET", "path": "/health", "status": 200, "duration_ms": 24.4}
+{"ts": "2026-10-29 16:22:20", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.1}
+{"ts": "2026-10-29 16:22:20", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.1}
+{"ts": "2026-10-29 16:22:21", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.1}
+{"ts": "2026-10-29 16:22:21", "level": "WARNING", "event": "request", "method": "POST", "path": "/check", "status": 422, "duration_ms": 0.7, "message": "client error"}
+{"ts": "2026-10-29 16:22:21", "level": "WARNING", "event": "request", "method": "GET", "path": "/no-such-page", "status": 404, "duration_ms": 0.2, "message": "client error"}
+{"ts": "2026-10-29 16:22:21", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.2}
+{"ts": "2026-10-29 16:22:21", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.1}
+{"ts": "2026-10-29 16:22:21", "level": "WARNING", "event": "request", "method": "POST", "path": "/check", "status": 422, "duration_ms": 0.6, "message": "client error"}
+{"ts": "2026-10-29 16:22:21", "level": "WARNING", "event": "request", "method": "GET", "path": "/no-such-page", "status": 404, "duration_ms": 0.2, "message": "client error"}
+{"ts": "2026-10-29 16:22:21", "level": "INFO", "event": "request", "method": "GET", "path": "/health", "status": 200, "duration_ms": 12.6}
+{"ts": "2026-10-29 16:22:21", "level": "WARNING", "event": "request", "method": "GET", "path": "/no-such-page", "status": 404, "duration_ms": 0.2, "message": "client error"}
+{"ts": "2026-10-29 16:22:21", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.0}
+{"ts": "2026-10-29 16:22:21", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.0}
+{"ts": "2026-10-29 16:22:21", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.2}
+{"ts": "2026-10-29 16:22:21", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 0.9}
+{"ts": "2026-10-29 16:22:21", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.0}
+{"ts": "2026-10-29 16:22:21", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.1}
+{"ts": "2026-10-29 16:22:21", "level": "INFO", "event": "request", "method": "GET", "path": "/health", "status": 200, "duration_ms": 27.6}
+{"ts": "2026-10-29 16:22:21", "level": "WARNING", "event": "request", "method": "POST", "path": "/check", "status": 422, "duration_ms": 0.6, "message": "client error"}
+{"ts": "2026-10-29 16:22:21", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 0.9}
+{"ts": "2026-10-29 16:22:23", "level": "INFO", "event": "llm_call", "model": "gpt-4o-mini", "input_tokens": 68, "output_tokens": 96, "duration_ms": 1605.6}
+{"ts": "2026-10-29 16:22:23", "level": "INFO", "event": "request", "method": "POST", "path": "/write", "status": 200, "duration_ms": 1656.7}
+{"ts": "2026-10-29 16:22:23", "level": "INFO", "event": "request", "method": "GET", "path": "/health", "status": 200, "duration_ms": 22.4}
+{"ts": "2026-10-29 16:22:23", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 0.9}
+{"ts": "2026-10-29 16:22:23", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.2}
+{"ts": "2026-10-29 16:22:25", "level": "INFO", "event": "llm_call", "model": "gpt-4o-mini", "input_tokens": 68, "output_tokens": 87, "duration_ms": 1805.6}
+{"ts": "2026-10-29 16:22:25", "level": "INFO", "event": "request", "method": "POST", "path": "/write", "status": 200, "duration_ms": 1852.1}
+{"ts": "2026-10-29 16:22:25", "level": "INFO", "event": "request", "method": "GET", "path": "/health", "status": 200, "duration_ms": 23.2}
+{"ts": "2026-10-29 16:22:26", "level": "INFO", "event": "llm_call", "model": "gpt-4o-mini", "input_tokens": 68, "output_tokens": 84, "duration_ms": 1611.3}
+{"ts": "2026-10-29 16:22:26", "level": "INFO", "event": "request", "method": "POST", "path": "/write", "status": 200, "duration_ms": 1634.8}
+{"ts": "2026-10-29 16:22:26", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.1}
+{"ts": "2026-10-29 16:22:26", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.4}
+{"ts": "2026-10-29 16:22:26", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 0.9}
+{"ts": "2026-10-29 16:22:26", "level": "ERROR", "event": "request", "method": "GET", "path": "/boom", "status": 500, "error": "의도된 장애입니다 (실습용)", "duration_ms": 1.1, "message": "unhandled exception"}
+{"ts": "2026-10-29 16:22:26", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.2}
+{"ts": "2026-10-29 16:22:26", "level": "ERROR", "event": "request", "method": "GET", "path": "/boom", "status": 500, "error": "의도된 장애입니다 (실습용)", "duration_ms": 0.7, "message": "unhandled exception"}
+{"ts": "2026-10-29 16:22:26", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.0}
+{"ts": "2026-10-29 16:22:27", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.3}
+{"ts": "2026-10-29 16:22:27", "level": "INFO", "event": "request", "method": "GET", "path": "/health", "status": 200, "duration_ms": 11.7}
+{"ts": "2026-10-29 16:22:27", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.0}
+{"ts": "2026-10-29 16:22:27", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.0}
+{"ts": "2026-10-29 16:22:27", "level": "WARNING", "event": "request", "method": "POST", "path": "/check", "status": 422, "duration_ms": 0.8, "message": "client error"}
+{"ts": "2026-10-29 16:22:27", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.1}
+{"ts": "2026-10-29 16:22:28", "level": "INFO", "event": "llm_call", "model": "gpt-4o-mini", "input_tokens": 68, "output_tokens": 92, "duration_ms": 1739.5}
+{"ts": "2026-10-29 16:22:28", "level": "INFO", "event": "request", "method": "POST", "path": "/write", "status": 200, "duration_ms": 1769.8}
+{"ts": "2026-10-29 16:22:28", "level": "WARNING", "event": "request", "method": "POST", "path": "/check", "status": 422, "duration_ms": 1.1, "message": "client error"}
+{"ts": "2026-10-29 16:22:28", "level": "INFO", "event": "request", "method": "GET", "path": "/health", "status": 200, "duration_ms": 17.0}
+{"ts": "2026-10-29 16:22:29", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.1}
+{"ts": "2026-10-29 16:22:29", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.2}
+{"ts": "2026-10-29 16:22:29", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 0.9}
+{"ts": "2026-10-29 16:22:29", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.1}
+{"ts": "2026-10-29 16:22:29", "level": "INFO", "event": "request", "method": "GET", "path": "/health", "status": 200, "duration_ms": 27.0}
+{"ts": "2026-10-29 16:22:29", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.1}
+{"ts": "2026-10-29 16:22:29", "level": "INFO", "event": "request", "method": "GET", "path": "/health", "status": 200, "duration_ms": 30.5}
+{"ts": "2026-10-29 16:22:29", "level": "ERROR", "event": "request", "method": "GET", "path": "/boom", "status": 500, "error": "의도된 장애입니다 (실습용)", "duration_ms": 0.6, "message": "unhandled exception"}
+{"ts": "2026-10-29 16:22:29", "level": "INFO", "event": "request", "method": "GET", "path": "/health", "status": 200, "duration_ms": 12.5}
+{"ts": "2026-10-29 16:43:36", "level": "INFO", "event": "request", "method": "GET", "path": "/health", "status": 200, "duration_ms": 19.7}
+{"ts": "2026-10-29 16:43:36", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.6}
+{"ts": "2026-10-29 16:43:36", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.3}
+{"ts": "2026-10-29 16:43:36", "level": "ERROR", "event": "request", "method": "GET", "path": "/boom", "status": 500, "error": "의도된 장애입니다 (실습용)", "duration_ms": 1.3, "message": "unhandled exception"}
+{"ts": "2026-10-29 16:43:36", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.2}
+{"ts": "2026-10-29 16:43:36", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.2}
+{"ts": "2026-10-29 16:43:38", "level": "INFO", "event": "llm_call", "model": "gpt-4o-mini", "input_tokens": 68, "output_tokens": 80, "duration_ms": 2031.7}
+{"ts": "2026-10-29 16:43:38", "level": "INFO", "event": "request", "method": "POST", "path": "/write", "status": 200, "duration_ms": 2070.1}
+{"ts": "2026-10-29 16:43:38", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.0}
+{"ts": "2026-10-29 16:43:38", "level": "INFO", "event": "request", "method": "GET", "path": "/health", "status": 200, "duration_ms": 28.5}
+{"ts": "2026-10-29 16:43:41", "level": "INFO", "event": "llm_call", "model": "gpt-4o-mini", "input_tokens": 68, "output_tokens": 91, "duration_ms": 2290.7}
+{"ts": "2026-10-29 16:43:41", "level": "INFO", "event": "request", "method": "POST", "path": "/write", "status": 200, "duration_ms": 2329.2}
+{"ts": "2026-10-29 16:43:41", "level": "WARNING", "event": "request", "method": "POST", "path": "/check", "status": 422, "duration_ms": 0.8, "message": "client error"}
+{"ts": "2026-10-29 16:43:41", "level": "INFO", "event": "request", "method": "GET", "path": "/health", "status": 200, "duration_ms": 26.8}
+{"ts": "2026-10-29 16:43:41", "level": "ERROR", "event": "request", "method": "GET", "path": "/boom", "status": 500, "error": "의도된 장애입니다 (실습용)", "duration_ms": 0.7, "message": "unhandled exception"}
+{"ts": "2026-10-29 16:43:43", "level": "INFO", "event": "llm_call", "model": "gpt-4o-mini", "input_tokens": 68, "output_tokens": 94, "duration_ms": 2114.5}
+{"ts": "2026-10-29 16:43:43", "level": "INFO", "event": "request", "method": "POST", "path": "/write", "status": 200, "duration_ms": 2148.5}
+{"ts": "2026-10-29 16:43:43", "level": "INFO", "event": "request", "method": "GET", "path": "/health", "status": 200, "duration_ms": 22.0}
+{"ts": "2026-10-29 16:43:43", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.1}
+{"ts": "2026-10-29 16:43:43", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.0}
+{"ts": "2026-10-29 16:43:43", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.2}
+{"ts": "2026-10-29 16:43:43", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.0}
+{"ts": "2026-10-29 16:43:43", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.0}
+{"ts": "2026-10-29 16:43:43", "level": "INFO", "event": "request", "method": "GET", "path": "/health", "status": 200, "duration_ms": 25.9}
+{"ts": "2026-10-29 16:43:43", "level": "ERROR", "event": "request", "method": "GET", "path": "/boom", "status": 500, "error": "의도된 장애입니다 (실습용)", "duration_ms": 1.6, "message": "unhandled exception"}
+{"ts": "2026-10-29 16:43:43", "level": "WARNING", "event": "request", "method": "POST", "path": "/check", "status": 422, "duration_ms": 0.6, "message": "client error"}
+{"ts": "2026-10-29 16:43:43", "level": "WARNING", "event": "request", "method": "GET", "path": "/no-such-page", "status": 404, "duration_ms": 0.2, "message": "client error"}
+{"ts": "2026-10-29 16:43:43", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.0}
+{"ts": "2026-10-29 16:43:43", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.2}
+{"ts": "2026-10-29 16:43:43", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.0}
+{"ts": "2026-10-29 16:43:43", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 0.9}
+{"ts": "2026-10-29 16:43:43", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.3}
+{"ts": "2026-10-29 16:43:43", "level": "INFO", "event": "request", "method": "GET", "path": "/health", "status": 200, "duration_ms": 12.2}
+{"ts": "2026-10-29 16:43:43", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.4}
+{"ts": "2026-10-29 16:43:46", "level": "INFO", "event": "llm_call", "model": "gpt-4o-mini", "input_tokens": 68, "output_tokens": 105, "duration_ms": 2161.3}
+{"ts": "2026-10-29 16:43:46", "level": "INFO", "event": "request", "method": "POST", "path": "/write", "status": 200, "duration_ms": 2189.6}
+{"ts": "2026-10-29 16:43:46", "level": "WARNING", "event": "request", "method": "GET", "path": "/no-such-page", "status": 404, "duration_ms": 0.3, "message": "client error"}
+{"ts": "2026-10-29 16:43:46", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.2}
+{"ts": "2026-10-29 16:43:46", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.2}
+{"ts": "2026-10-29 16:43:46", "level": "INFO", "event": "request", "method": "GET", "path": "/health", "status": 200, "duration_ms": 25.6}
+{"ts": "2026-10-29 16:43:46", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.0}
+{"ts": "2026-10-29 16:43:46", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.0}
+{"ts": "2026-10-29 16:43:46", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.1}
+{"ts": "2026-10-29 16:43:46", "level": "INFO", "event": "request", "method": "GET", "path": "/health", "status": 200, "duration_ms": 12.0}
+{"ts": "2026-10-29 16:43:46", "level": "WARNING", "event": "request", "method": "POST", "path": "/check", "status": 422, "duration_ms": 0.6, "message": "client error"}
+{"ts": "2026-10-29 16:43:46", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.0}
+{"ts": "2026-10-29 16:43:46", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.2}
+{"ts": "2026-10-29 16:43:46", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.0}
+{"ts": "2026-10-29 16:43:46", "level": "WARNING", "event": "request", "method": "GET", "path": "/no-such-page", "status": 404, "duration_ms": 0.2, "message": "client error"}
+{"ts": "2026-10-29 16:43:46", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 0.9}
+{"ts": "2026-10-29 16:43:46", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.2}
+{"ts": "2026-10-29 16:43:46", "level": "WARNING", "event": "request", "method": "POST", "path": "/check", "status": 422, "duration_ms": 0.5, "message": "client error"}
+{"ts": "2026-10-29 16:43:46", "level": "INFO", "event": "request", "method": "GET", "path": "/health", "status": 200, "duration_ms": 28.6}
+{"ts": "2026-10-29 16:43:46", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.2}
+{"ts": "2026-10-29 16:43:46", "level": "INFO", "event": "request", "method": "GET", "path": "/health", "status": 200, "duration_ms": 22.3}
+{"ts": "2026-10-29 16:43:46", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.1}
+{"ts": "2026-10-29 16:43:46", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.2}
+{"ts": "2026-10-29 16:43:46", "level": "WARNING", "event": "request", "method": "POST", "path": "/check", "status": 422, "duration_ms": 0.7, "message": "client error"}
+{"ts": "2026-10-29 16:43:46", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.0}
+{"ts": "2026-10-29 16:43:48", "level": "INFO", "event": "llm_call", "model": "gpt-4o-mini", "input_tokens": 68, "output_tokens": 90, "duration_ms": 1760.0}
+{"ts": "2026-10-29 16:43:48", "level": "INFO", "event": "request", "method": "POST", "path": "/write", "status": 200, "duration_ms": 1805.4}
+{"ts": "2026-10-29 16:44:21", "level": "WARNING", "event": "request", "method": "POST", "path": "/check", "status": 422, "duration_ms": 1.6, "message": "client error"}
+{"ts": "2026-10-29 16:44:22", "level": "INFO", "event": "llm_call", "model": "gpt-4o-mini", "input_tokens": 68, "output_tokens": 82, "duration_ms": 1512.8}
+{"ts": "2026-10-29 16:44:22", "level": "INFO", "event": "request", "method": "POST", "path": "/write", "status": 200, "duration_ms": 1537.3}
+{"ts": "2026-10-29 16:44:22", "level": "WARNING", "event": "request", "method": "GET", "path": "/no-such-page", "status": 404, "duration_ms": 0.2, "message": "client error"}
+{"ts": "2026-10-29 16:44:22", "level": "INFO", "event": "request", "method": "GET", "path": "/health", "status": 200, "duration_ms": 12.6}
+{"ts": "2026-10-29 16:44:22", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.2}
+{"ts": "2026-10-29 16:44:23", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.2}
+{"ts": "2026-10-29 16:44:23", "level": "INFO", "event": "request", "method": "GET", "path": "/health", "status": 200, "duration_ms": 26.3}
+{"ts": "2026-10-29 16:44:23", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.0}
+{"ts": "2026-10-29 16:44:23", "level": "INFO", "event": "request", "method": "GET", "path": "/health", "status": 200, "duration_ms": 12.4}
+{"ts": "2026-10-29 16:44:23", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.1}
+{"ts": "2026-10-29 16:44:23", "level": "ERROR", "event": "request", "method": "GET", "path": "/boom", "status": 500, "error": "의도된 장애입니다 (실습용)", "duration_ms": 1.6, "message": "unhandled exception"}
+{"ts": "2026-10-29 16:44:23", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.2}
+{"ts": "2026-10-29 16:44:23", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.2}
+{"ts": "2026-10-29 16:44:24", "level": "INFO", "event": "llm_call", "model": "gpt-4o-mini", "input_tokens": 68, "output_tokens": 89, "duration_ms": 1605.8}
+{"ts": "2026-10-29 16:44:24", "level": "INFO", "event": "request", "method": "POST", "path": "/write", "status": 200, "duration_ms": 1643.0}
+{"ts": "2026-10-29 16:44:24", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.1}
+{"ts": "2026-10-29 16:44:24", "level": "INFO", "event": "request", "method": "GET", "path": "/health", "status": 200, "duration_ms": 12.6}
+{"ts": "2026-10-29 16:44:27", "level": "INFO", "event": "llm_call", "model": "gpt-4o-mini", "input_tokens": 68, "output_tokens": 98, "duration_ms": 2481.3}
+{"ts": "2026-10-29 16:44:27", "level": "INFO", "event": "request", "method": "POST", "path": "/write", "status": 200, "duration_ms": 2521.2}
+{"ts": "2026-10-29 16:44:29", "level": "INFO", "event": "llm_call", "model": "gpt-4o-mini", "input_tokens": 68, "output_tokens": 86, "duration_ms": 2191.4}
+{"ts": "2026-10-29 16:44:29", "level": "INFO", "event": "request", "method": "POST", "path": "/write", "status": 200, "duration_ms": 2228.6}
+{"ts": "2026-10-29 16:44:29", "level": "WARNING", "event": "request", "method": "POST", "path": "/check", "status": 422, "duration_ms": 0.7, "message": "client error"}
+{"ts": "2026-10-29 16:44:31", "level": "INFO", "event": "llm_call", "model": "gpt-4o-mini", "input_tokens": 68, "output_tokens": 89, "duration_ms": 1731.7}
+{"ts": "2026-10-29 16:44:31", "level": "INFO", "event": "request", "method": "POST", "path": "/write", "status": 200, "duration_ms": 1776.8}
+{"ts": "2026-10-29 16:44:31", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.0}
+{"ts": "2026-10-29 16:44:31", "level": "INFO", "event": "request", "method": "GET", "path": "/health", "status": 200, "duration_ms": 14.6}
+{"ts": "2026-10-29 16:44:31", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.0}
+{"ts": "2026-10-29 16:44:31", "level": "INFO", "event": "request", "method": "GET", "path": "/health", "status": 200, "duration_ms": 15.9}
+{"ts": "2026-10-29 16:44:31", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.2}
+{"ts": "2026-10-29 16:44:31", "level": "ERROR", "event": "request", "method": "GET", "path": "/boom", "status": 500, "error": "의도된 장애입니다 (실습용)", "duration_ms": 0.7, "message": "unhandled exception"}
+{"ts": "2026-10-29 16:44:31", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.4}
+{"ts": "2026-10-29 16:44:31", "level": "WARNING", "event": "request", "method": "GET", "path": "/no-such-page", "status": 404, "duration_ms": 0.3, "message": "client error"}
+{"ts": "2026-10-29 16:44:31", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.3}
+{"ts": "2026-10-29 16:44:31", "level": "WARNING", "event": "request", "method": "POST", "path": "/check", "status": 422, "duration_ms": 0.6, "message": "client error"}
+{"ts": "2026-10-29 16:44:31", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.3}
+{"ts": "2026-10-29 16:44:31", "level": "INFO", "event": "request", "method": "GET", "path": "/health", "status": 200, "duration_ms": 16.2}
+{"ts": "2026-10-29 16:44:31", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.0}
+{"ts": "2026-10-29 16:44:31", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.4}
+{"ts": "2026-10-29 16:44:31", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 2.2}
+{"ts": "2026-10-29 16:44:31", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.3}
+{"ts": "2026-10-29 16:44:31", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.7}
+{"ts": "2026-10-29 16:44:32", "level": "WARNING", "event": "request", "method": "POST", "path": "/check", "status": 422, "duration_ms": 1.1, "message": "client error"}
+{"ts": "2026-10-29 16:44:32", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 0.9}
+{"ts": "2026-10-29 16:44:32", "level": "INFO", "event": "request", "method": "GET", "path": "/health", "status": 200, "duration_ms": 13.7}
+{"ts": "2026-10-29 16:44:32", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.0}
+{"ts": "2026-10-29 16:44:32", "level": "INFO", "event": "request", "method": "GET", "path": "/health", "status": 200, "duration_ms": 27.1}
+{"ts": "2026-10-29 16:44:32", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.0}
+{"ts": "2026-10-29 16:44:32", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.2}
+{"ts": "2026-10-29 16:44:32", "level": "WARNING", "event": "request", "method": "GET", "path": "/no-such-page", "status": 404, "duration_ms": 0.2, "message": "client error"}
+{"ts": "2026-10-29 16:44:32", "level": "ERROR", "event": "request", "method": "GET", "path": "/boom", "status": 500, "error": "의도된 장애입니다 (실습용)", "duration_ms": 0.9, "message": "unhandled exception"}
+{"ts": "2026-10-29 16:44:32", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.0}
+{"ts": "2026-10-29 16:44:32", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.2}
+{"ts": "2026-10-29 16:44:32", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.1}
+{"ts": "2026-10-29 16:44:32", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.3}
+{"ts": "2026-10-29 16:44:32", "level": "WARNING", "event": "request", "method": "POST", "path": "/check", "status": 422, "duration_ms": 0.5, "message": "client error"}
+{"ts": "2026-10-29 16:44:32", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.0}
+{"ts": "2026-10-29 16:44:32", "level": "INFO", "event": "request", "method": "GET", "path": "/health", "status": 200, "duration_ms": 14.4}
+{"ts": "2026-10-29 16:44:32", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.0}
+{"ts": "2026-10-29 16:44:32", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.1}
+{"ts": "2026-10-29 16:44:32", "level": "INFO", "event": "request", "method": "POST", "path": "/check", "status": 200, "duration_ms": 1.2}
